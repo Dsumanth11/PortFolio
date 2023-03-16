@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  /* flex-wrap: wrap; */
 }
 .certificate_card
 {
@@ -159,6 +160,16 @@ img{
     background-color: var(--second-color);
     transition: .5s;
   }
+  .certificate_cards
+{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: center;
+  margin: auto;
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+}
 }
 .nav__item{
   margin-bottom: var(--mb-4);
